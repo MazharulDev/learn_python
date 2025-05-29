@@ -1,3 +1,5 @@
+import numpy as np
+
 # variable 
 a=1
 b=2
@@ -32,3 +34,9 @@ a=b=c=1
 fruits=["apple","banana","cherry"]
 x,y,z=fruits
 # print(x,y,z)
+
+age = [12,34,34,34,45]
+converted_array=np.array(age)
+print(converted_array)
+
+print(type(converted_array))
