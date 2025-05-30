@@ -32,3 +32,29 @@ a=b=c=1
 fruits=["apple","banana","cherry"]
 x,y,z=fruits
 # print(x,y,z)
+
+x="paython"
+y=" is"
+z=" awesome"
+# print(x+y+z)
+
+m=5
+n=1
+# print(m+n)
+
+# global variable
+
+x="awesome"
+
+def myfunc():
+    print("paython is " + x)
+
+# myfunc()
+
+def createGlobal():
+    global mahfuz
+    mahfuz="my name is mahfuz"
+
+createGlobal()
+print(mahfuz)
+
