@@ -1,3 +1,5 @@
+import numpy as np
+
 # variable 
 a=1
 b=2
@@ -58,3 +60,8 @@ def createGlobal():
 createGlobal()
 print(mahfuz)
 
+age = [12,34,34,34,45]
+converted_array=np.array(age)
+print(converted_array)
+
+print(type(converted_array))
